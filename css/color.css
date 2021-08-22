@@ -1,0 +1,43 @@
+.aside .logo a::before
+{
+    border-top: 4px solid #ec1839;
+    border-left: 4px solid #ec1839;
+}
+
+.aside .logo a::after
+{
+    border-right: 4px solid #ec1839;
+    border-bottom: 4px solid #ec1839;
+}
+
+#contact .cont-item .icon .fa,
+#portfolio .portfolio-item .port-overlay .port-icon .fa,
+#portfolio .work-filter li.active,
+body.dark #portfolio .work-filter li.active,
+body.dark .aside .menu li a:hover,
+body.dark .aside .menu li a.active,
+.aside .menu li a:hover,
+.aside .menu li a.active,
+#about .about-content .about-text h3 span
+{
+    color: #ec1839;
+}
+
+#about .about-content .timeline .circle,
+#about .about-content .timeline .timeline-item::before,
+#skill .skill-content .skill-item .progress-bar,
+.btn1,
+.aside .nav-toggler span,
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after,
+.home .intro .social-icon .icon,
+.section-title h2::before,
+.section-title h2::after
+{
+    background-color: #ec1839;
+}
+
+#portfolio .work-filter li.active
+{
+    border-color: #ec1839;
+}
